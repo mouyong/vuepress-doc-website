@@ -15,14 +15,12 @@ import ParentLayout from '@vuepress/theme-default/lib/client/layouts/Layout.vue'
 </template>
 
 <style lang="scss">
-
-.theme-container,
-{
+.theme-container {
     min-height: 100vh;
     position: relative;
 
     div.footer {
-        position: relative !important;
+        position: relative;
         bottom: 0;
         left: 50%;
         transform: translate(-50%, -50%);
@@ -32,9 +30,13 @@ import ParentLayout from '@vuepress/theme-default/lib/client/layouts/Layout.vue'
         white-space: nowrap;
         text-align: center !important;
     }
+
+    :not(.home) div.footer {
+        position: relative !important;
+    }
 }
 .theme-container {
-    :not(.page) .footer {
+    .footer {
         position: absolute !important;
     }
 }

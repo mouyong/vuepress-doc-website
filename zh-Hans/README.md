@@ -6,7 +6,7 @@ actions:
     link: /database
     type: primary
   - text: 目录索引
-    link: https://we9al24qso.feishu.cn/docs/doccndfaOAqZa8Tqr2aYrBZc9mc
+    link: https://feishu.cn/drive/me/
     type: secondary
 footer:
     Copyright © 2014-2022 <a href="https://blog.iwnweb.com" target="_blank">牟勇</a><br>

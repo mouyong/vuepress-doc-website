@@ -1,7 +1,5 @@
 import { defineUserConfig, viteBundler } from 'vuepress'
 import { searchPlugin }  from '@vuepress/plugin-search'
-const { backToTopPlugin } = require('@vuepress/plugin-back-to-top')
-const { mediumZoomPlugin } = require('@vuepress/plugin-medium-zoom')
 import { localTheme } from './theme'
 
 export default defineUserConfig({
@@ -37,7 +35,7 @@ export default defineUserConfig({
             children: [
               {
                 text: '目录索引',
-                link: 'https://we9al24qso.feishu.cn/docs/doccndfaOAqZa8Tqr2aYrBZc9mc'
+                link: 'https://feishu.cn'
               },
             ],
           },
@@ -46,7 +44,7 @@ export default defineUserConfig({
             children: [
               {
                 text: '接口文档',
-                link: 'https://www.apifox.cn/web/project/1103154'
+                link: 'https://www.apifox.cn/web'
               },
             ],
           },
@@ -86,57 +84,6 @@ export default defineUserConfig({
               collapsible: true,
               children: [
                 '/database/user/users',
-                '/database/user/user_supplements',
-              ]
-            },
-            {
-              text: '患者',
-              collapsible: true,
-              children: [
-                '/database/patient/patients',
-                '/database/patient/family_relationships',
-              ]
-            },
-            {
-              text: '就诊',
-              collapsible: true,
-              children: [
-                '/database/treat/treat_informations',
-                '/database/treat/sign_informations',
-                '/database/treat/clinical_informations',
-                '/database/treat/family_histories',
-              ]
-            },
-            {
-              text: '检测',
-              collapsible: true,
-              children: [
-                '/database/test/test_samples',
-                '/database/test/test_sample_orders',
-                '/database/test/test_sample_reports',
-              ]
-            },
-            {
-              text: '随访',
-              collapsible: true,
-              children: [
-                '/database/follow_up/follow_ups',
-              ]
-            },
-            {
-              text: '样本',
-              collapsible: true,
-              children: [
-                '/database/sample/sample_warehousings',
-                '/database/sample/sample_ex_warehouses',
-              ]
-            },
-            {
-              text: '科研',
-              collapsible: true,
-              children: [
-                '/database/project/project_establish_records',
-                '/database/project/project_attachments',
               ]
             },
           ]
@@ -146,8 +93,6 @@ export default defineUserConfig({
   }),
 
   plugins: [
-    backToTopPlugin(),
-    mediumZoomPlugin(),
     searchPlugin({
       searchMaxSuggestions: 10
     }),
