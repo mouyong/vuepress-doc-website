@@ -18,13 +18,7 @@
     "err_msg": "success",
     "data": [
         {
-            // 用户信息，后面单独整理出展示数据的信息结构
-            "user_id": "users.id",
-            "user_name": "users.name",
-            "user_gender": "users.gender",
-            "user_gender_desc": "性别文字描述，如：男",
-            "user_mobile": "users.mobile 脱敏手机号，如：133****3333",
-            "user_address": "users.address",
+            // API 参考 > 接口数据模型 > 用户信息,
         },
     ],
     "meta": {
