@@ -119,6 +119,11 @@ export default defineUserConfig({
     }),
   ],
 
+  /**
+   * build for sub dir
+   */
+  // base: '/docs/',
+  // dest: '../public/docs/', // relative of vuepress-docs directory
   bundler: viteBundler({
     viteOptions: {
       server: {
