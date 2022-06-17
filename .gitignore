@@ -1,0 +1,6 @@
+node_modules
+.temp
+.cache
+.htaccess
+dist/
+yarn.lock
