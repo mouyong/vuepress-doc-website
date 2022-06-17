@@ -70,9 +70,18 @@ export default defineUserConfig({
               link: '/api',
             },
             '/api/header',
+            '/api/request',
             '/api/response',
           ],
-        }
+        },
+        {
+          text: '用户',
+          children: [
+            '/api/user/add',
+            '/api/user/list',
+            '/api/user/delete',
+          ]
+        },
       ],
       '/database/': [
         {
@@ -85,6 +94,15 @@ export default defineUserConfig({
               children: [
                 '/database/user/users',
               ]
+            },
+          ]
+        },
+        {
+          text: '字典数据',
+          children: [
+            {
+              text: '民族',
+              link: '/database/dictionary/nation',
             },
           ]
         },

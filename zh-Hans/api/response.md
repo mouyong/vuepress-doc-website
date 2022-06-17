@@ -8,7 +8,7 @@
     "meta": { // 有分页数据时会返回 meta 信息
         "total": 100,
         "current_page": 1,
-        "page_size": 15,
+        "page_size": 15, // 全局分页默认为 `15` 条/页
         "last_page": 9,
     },
 }
