@@ -65,13 +65,16 @@ export default defineUserConfig({
         {
           text: '概览',
           children: [
-            {
-              text: '目录',
-              link: '/api',
-            },
+            '/api',
             '/api/header',
             '/api/request',
             '/api/response',
+          ],
+        },
+        {
+          text: '接口数据模型',
+          children: [
+            '/api/models/user',
           ],
         },
         {
