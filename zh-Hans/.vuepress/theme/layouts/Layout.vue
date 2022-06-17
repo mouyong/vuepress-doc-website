@@ -23,7 +23,7 @@ import ParentLayout from '@vuepress/theme-default/lib/client/layouts/Layout.vue'
         position: relative;
         bottom: 0;
         left: 50%;
-        transform: translate(-50%, -50%);
+        transform: translate(-50%, 0);
         padding: 1rem !important;
         padding-top: 3rem;
         padding-bottom: 0;
