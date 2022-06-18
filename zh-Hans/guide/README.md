@@ -15,8 +15,8 @@
 
 - 后端环境地址：<https://xxx.hecs.iwnweb.com>
 - [**接口目录**](../api/)
-- [**全局请求头**](../api/header.md)
-- [**全局接口响应**](../api/response.md)
+- [**全局请求头**](../api/header)
+- [**全局接口响应**](../api/response)
 
 
 ## 参考文档
