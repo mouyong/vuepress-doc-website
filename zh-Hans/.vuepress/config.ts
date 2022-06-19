@@ -8,6 +8,8 @@ export default defineUserConfig({
   description: '项目描述',
 
   theme: localTheme({
+    lastUpdated: false,
+    contributors: false,
     searchPlaceholder: '请输入...',
     sidebarDepth: 0,
     navbar: [
