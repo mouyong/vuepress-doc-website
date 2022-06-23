@@ -2,6 +2,7 @@
     white-space: nowrap!important;
 }
 
+// 存在疑问 question
 .markdown a.q {
     color: #CC0000;
 
@@ -10,8 +11,18 @@
     }
 }
 
+// 初次处理待确认 confirm
 .markdown a.c {
     color: #E7C000;
+
+    &::after {
+        content: '!'
+    }
+}
+
+// 修改后待确认的
+.markdown a.c2 {
+    color: rgb(110, 149, 233);
 
     &::after {
         content: '!'
