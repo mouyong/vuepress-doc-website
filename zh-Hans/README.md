@@ -1,6 +1,5 @@
 ---
 home: true
-title: 首页
 actions:
   - text: 数据字典
     link: /database
