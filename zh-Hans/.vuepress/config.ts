@@ -74,18 +74,18 @@ export default defineUserConfig({
           ],
         },
         {
-          text: '接口数据模型',
-          children: [
-            '/api/models/user',
-          ],
-        },
-        {
           text: '用户',
           children: [
             '/api/user/add',
             '/api/user/list',
             '/api/user/delete',
           ]
+        },
+        {
+          text: '接口数据模型',
+          children: [
+            '/api/models/user',
+          ],
         },
       ],
       '/database/': [
