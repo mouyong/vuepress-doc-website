@@ -125,12 +125,14 @@ export default defineUserConfig({
    * build for sub dir
    */
   // base: '/docs/',
-  // dest: '../public/docs/', // relative of vuepress-docs directory
+  // dest: '../public/docs/', // relative of `vuepress-docs/` directory
   bundler: viteBundler({
     viteOptions: {
       server: {
+        host: '0.0.0.0',
+        // port: 8080,
         hmr: {
-          clientPort: 443,
+          clientPort: 80,
         }
       }
     },
