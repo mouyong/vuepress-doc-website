@@ -3,4 +3,4 @@ node_modules
 .cache
 .htaccess
 dist/
-yarn.lock
+*.lock
