@@ -13,22 +13,10 @@ export default defineUserConfig({
     searchPlaceholder: '请输入...',
     sidebarDepth: 0,
     navbar: [
-      {
-        text: '首页',
-        link: '/'
-      },
-      {
-        text: '指南',
-        link: '/guide',
-      },
-      {
-        text: 'API 参考',
-        link: '/api',
-      },
-      {
-        text: '数据字典',
-        link: '/database'
-      },
+      { text: '首页', link: '/' },
+      { text: '指南', link: '/guide' },
+      { text: 'API 参考', link: '/api' },
+      { text: '数据字典', link: '/database' },
       {
         text: '项目资料',
         children: [
