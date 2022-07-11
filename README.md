@@ -1,3 +1,7 @@
+## 说明
+
+精力有限，此项目不再进行维护，建议访问同类型持续维护的项目 https://github.com/mouyong/vitepress-doc-website
+
 ## 添加文档
 
 ```
